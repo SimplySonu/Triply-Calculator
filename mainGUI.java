@@ -629,7 +629,7 @@ class UnitConverterGUI extends JFrame implements ActionListener
 				si1.setText("meter");
 				
 				textfield2.setEnabled(true);
-				textfield2.setText(String.format("%.03f",num1*1000));
+				textfield2.setText(String.format("%.03f",num1*100));
 				textfield2.setEnabled(false);
 				si2.setText("Centimeter");
 			}
